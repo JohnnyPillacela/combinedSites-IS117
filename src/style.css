@@ -29,7 +29,6 @@ nav .navbar-brand {
 }
 
 .block1 {
-
     text-align: -webkit-center;
     height: 350px;
     background: #EAEAEA;
@@ -47,8 +46,51 @@ nav .navbar-brand {
     text-align: -webkit-center;
 
 }
-.container ul{
-    margin-left: 50px;
-    margin: inherit;
+.container ul li{
+    margin-right: auto;
+    margin-left: 55px;
+    margin-bottom: 15px;
     text-align: -webkit-left;
+    list-style-position: inside;
+    max-width: 345px;
 }
+
+.block2 {
+    text-align: -webkit-center;
+    height: 350px;
+    background: #f4f4f4;
+    padding-top: 40px;
+}
+
+
+
+
+.foot {
+    background: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+    font-size: 20px;
+}
+.footBody{
+    width: 960px;
+    margin: auto;
+}
+
+.copy{
+    float: left;
+}
+.symbol {
+    text-align: -webkit-right;
+    float: none;
+    -webkit-tap-highlight-color: transparent;
+    color: black;
+    outline: none;
+    border: none;
+}
+.symbol a{
+    color: white;
+}
+
