@@ -59,7 +59,15 @@ nav .navbar-brand {
     text-align: -webkit-center;
     height: 350px;
     background: #f4f4f4;
-    padding-top: 40px;
+    padding-top: 50px;
+
+}
+
+.block3 {
+    background: white;
+    text-align: -webkit-center;
+    height: 350px;
+    margin: auto;
 }
 
 
