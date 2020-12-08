@@ -22,10 +22,21 @@ nav .navbar-brand {
     color: white;
     margin-bottom: 0px;
 }
+
 .block0 .jumbo-content {
-    width: 960px;
     margin: auto;
+    width: 960px;
+}
+
+.block0 .left {
+    width: 576px;
+    float: left;
     text-align: -webkit-left;
+}
+.block0 .right{
+    float: none;
+    margin: auto;
+    text-align: -webkit-center;
 }
 
 .block2 .jumbotron {
@@ -33,7 +44,7 @@ nav .navbar-brand {
     color: black;
 }
 .block2 .jumbo-content {
-    width: 960px;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     text-align: -webkit-center;
@@ -51,11 +62,10 @@ nav .navbar-brand {
     padding-top: 95px;
 }
 
-.container {
+.block2 .container {
     width: 960px;
     margin: auto;
     text-align: -webkit-center;
-
 }
 
 .container ul li{
@@ -76,6 +86,10 @@ nav .navbar-brand {
     margin: auto;
 }
 
+.block0 img{
+    width: 20%;
+    height: 20%;
+}
 
 
 
